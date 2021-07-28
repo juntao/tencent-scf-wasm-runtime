@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - tensorflow
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
